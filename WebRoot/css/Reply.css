@@ -1,0 +1,32 @@
+/*整体移动*/
+#a_head
+{
+	border: 1px solid #F1E4F1;
+	width: 737px;
+	height: 202px;
+}
+#theof
+{
+	width: 737px;
+	background-color: #F1E4F1;
+}
+a
+{
+	font-size: 14px;
+	font-family: 宋体;
+}
+tr td
+{
+	line-height: 30px;
+	border-bottom: solid 1px #ddd;
+}
+/*改字体*/
+.Fontchange
+{
+	font-size: 12px;
+	font-family: 宋体;
+}
+textarea
+{
+	resize:none;
+}

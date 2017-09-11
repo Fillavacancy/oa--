@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ObtainCodeServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.ObtainCodeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ObtainCodeServlet</servlet-name>
+		<url-pattern>/ObtainCodeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchEncryptedAll</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SearchEncryptedAll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchEncryptedAll</servlet-name>
+		<url-pattern>/SearchEncryptedAll</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SendMailServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SendMailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendMailServlet</servlet-name>
+		<url-pattern>/SendMailServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.ResetPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<url-pattern>/ResetPasswordServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeblockingServlet</servlet-name>
+		<url-pattern>/DeblockingServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeblockingServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.DeblockingServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SelPersonalbookServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelPersonalbookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelPersonalbookServlet</servlet-name>
+		<url-pattern>/SelPersonalbookServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExamineLoginServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.ExamineLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExamineLoginServlet</servlet-name>
+		<url-pattern>/ExamineLoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ResetLoginPwdServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.ResetLoginPwdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResetLoginPwdServlet</servlet-name>
+		<url-pattern>/ResetLoginPwdServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelUserAllServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelUserAllServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelUserAllServlet</servlet-name>
+		<url-pattern>/SelUserAllServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SavePersonalbookServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SavePersonalbookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SavePersonalbookServlet</servlet-name>
+		<url-pattern>/SavePersonalbookServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DlePersonalbookServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.DlePersonalbookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DlePersonalbookServlet</servlet-name>
+		<url-pattern>/DlePersonalbookServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelPersonalbookJsonServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelPersonalbookJsonServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelPersonalbookJsonServlet</servlet-name>
+		<url-pattern>/SelPersonalbookJsonServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelUserAllJsonServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelUserAllJsonServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelUserAllJsonServlet</servlet-name>
+		<url-pattern>/SelUserAllJsonServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelDeptAllServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelDeptAllServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelDeptAllServlet</servlet-name>
+		<url-pattern>/SelDeptAllServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DraftsServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.DraftsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DraftsServlet</servlet-name>
+		<url-pattern>/DraftsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SendUserMailServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SendUserMailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendUserMailServlet</servlet-name>
+		<url-pattern>/SendUserMailServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelOutboxanddraftsServlet</servlet-name>
+		<servlet-class>net.linkcn.oa.servlet.SelOutboxanddraftsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelOutboxanddraftsServlet</servlet-name>
+		<url-pattern>/SelOutboxanddraftsServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>homepage.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- 设置session失效时间 -->
+	<session-config>
+		<session-timeout>15</session-timeout>
+	</session-config>
+</web-app>

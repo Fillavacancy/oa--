@@ -1,0 +1,20 @@
+.dt_table
+{
+	
+	border-collapse:collapse;
+	width:737px; 
+	text-align: center;
+}
+.dt_table tr th
+{
+	background-color: #F1E4F1;
+}
+.dt_table tr th,td
+{
+	border: solid 1px #ddd;
+}
+#btm_btn
+{
+	width:737px;
+	text-align: right;
+}

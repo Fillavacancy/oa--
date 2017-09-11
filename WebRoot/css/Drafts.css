@@ -1,0 +1,16 @@
+a
+{
+	color: white;
+}
+a:hover
+{
+	color: 2C61A9;
+}
+table tr td
+{
+	border-bottom: solid 1px #ddd;
+}
+textarea
+{ 
+	resize:none;
+}

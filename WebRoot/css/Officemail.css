@@ -1,0 +1,68 @@
+/*边框移动*/
+#side
+{
+	margin-left: 178px;
+}
+/*border办公邮件边框*/
+.subnav
+{
+	border:solid 1px #E0DEDE;
+	width: 230px;
+	height: 360px;
+}
+.Daily
+{
+	text-align:center;
+	margin-top: 8px;
+}
+/*tr、td去掉圆点*/
+tr td
+{
+	line-height: 30px;
+	margin-left: 10px;
+	font-family: 宋体;
+	font-size: 12px;
+	padding-left: 60px;
+}
+#budge
+{
+	margin-top: 30px;
+}
+a
+{
+	text-decoration:none;
+	color:#333;
+}
+td:hover a
+{
+	color:white;
+	cursor:pointer;
+}
+td:hover
+{
+	background-color: red;
+	cursor:pointer;
+}
+/*联系我们边框移动*/
+#Shift
+{
+	padding-top: 12px;
+}
+.Daily_
+{
+	text-align:center;
+	margin-top: 8px;
+}
+/*border联席地址边框*/
+#Touch
+{
+	border: solid 1px #E0DEDE;
+	width: 230px;
+	height: 223px;
+}
+p span
+{
+	padding-left:6px;
+	font-size: 12px;
+	font-family: 宋体;
+}

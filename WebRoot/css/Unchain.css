@@ -1,0 +1,88 @@
+/*解锁用户内容相关移动*/
+#Unchain_Move
+{
+	margin-left: 308px;
+	margin-top: 130px;
+}
+table
+{
+	border-collapse: collapse;
+}
+tr
+{
+    display:block; 
+    margin:6px 0;  
+}
+/*td标签间隔*/
+#interval
+{
+	width:90px;
+	padding:5px;
+	border:0px solid green;
+}
+a
+{
+	font-family:微软雅黑;
+	font-size: 12px;
+	color: #0472AB;
+}
+a:hover 
+{
+	color: #9ecc00; text-decoration: none
+}
+
+.Typeface
+{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: black; 
+}
+
+/*验证码*/
+#getcode
+{
+	border:solid 1px #add9c0;
+	border-width:3px 0px 4px 56px;
+	border-color: gray;
+}
+/*移动解锁、忘记密码A标签*/
+#Unlock
+{	
+	position: absolute;
+	margin-left: 270px;
+	margin-top: 19px;
+}
+/*按钮boder*/
+#btu_Deblocking:hover
+{
+	border:#6CF 1px solid;
+	cursor:pointer;
+	background-color:#F8F8F8;
+}
+/*按钮位置移动*/
+.btu_Deblocking
+{
+	position:absolute;
+	margin-left: 426px;	
+	margin-top: -0px;
+}
+/*Logo标记*/
+#Logo
+{
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 130px;
+	
+}
+.btu_Secede
+{
+	position:absolute;
+	margin-left: 550px;	
+	margin-top: -0px;
+}
+#btu_Secede:hover
+{
+	border:#6CF 1px solid;
+	cursor:pointer;
+	background-color:#F8F8F8;
+}

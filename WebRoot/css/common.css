@@ -1,0 +1,68 @@
+#hometd
+{
+	border: solid 1px #dddddd;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+#hometd p
+{
+	position:absolute;
+	top: 344px;
+	left: 957px;	
+}
+mynewimg
+{
+	text-align: left;
+}
+newspan
+{
+	font-size: 12px;
+}
+#headdiv table
+{
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;	
+}
+
+.sizetd
+{
+	font-size: 8px;
+	padding:5px 0px;
+	border-bottom: solid 1px #ddd;
+	width: 300px;
+}
+.sizetd a
+{
+	text-decoration: none;
+	color: black;
+}
+.sizetd2
+{
+	font-size: 8px;
+	padding:5px 0px;
+	margin:0px;
+	text-align: right;
+	border-bottom: solid 1px #ddd;
+}
+.lblimg
+{
+	padding:5px 7px 5px 6px	;
+	margin-top: 3px;
+	vertical-align: top;
+	color: white;
+	font-size: 16px;	
+}
+.lblimg:HOVER
+{
+	padding:5px 7px 5px 6px	;
+	margin-top: 3px;
+	vertical-align: top;
+	color: #ddd;
+	font-size: 16px;	
+}
+
+
+
+

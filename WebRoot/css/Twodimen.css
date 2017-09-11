@@ -1,0 +1,27 @@
+#pop
+{
+	background:#fff;
+	width:161px; 
+	height:157px;
+	font-size:12px;
+	position:fixed;
+	left:-12px;
+	bottom:1px;
+} 
+
+
+#popClose
+{
+	position:absolute;
+	left: 100px;
+	top:-5px;
+}
+a
+{
+	text-decoration: none;
+	color: #444;
+}
+a:hover
+{
+	color: #444;
+}

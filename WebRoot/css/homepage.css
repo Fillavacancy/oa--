@@ -1,0 +1,86 @@
+.topdiv
+{
+	background-color: #ddd;
+	width: 100%;
+}
+.txtone
+{
+	font-size: 13px;
+	color:grey;
+}
+.txttwo
+{
+	font-size: 12px;	
+	vertical-align:middle;
+	color:grey;
+}
+#userdiv
+{
+	position: absolute;
+	top:43px;
+	left: 1005px;
+}
+a
+{
+	text-decoration: none;
+}
+#headimg
+{
+	margin-right: 750px;
+}
+.registera
+{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-size:12px;
+	vertical-align: top;
+}
+.registera:HOVER
+{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	vertical-align: top;
+}
+#titlediv
+{
+	height: 45px;
+}
+#titletable
+{
+	line-height: 45px;
+}
+#titletable tr a
+{
+	text-decoration: none;
+	color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#titletable tr a:link   
+{
+	text-decoration: none;
+	color: black;
+}
+#titletable tr a:visited 
+{
+	text-decoration: none;
+	color: black;
+}
+#titletable tr a:hover   
+{
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: solid 1px red;
+	color:red;
+}
+
+
+
+
+
+
+
+
